@@ -23,7 +23,7 @@ from ..callbacks.base import Callback
 from ..callbacks.graph import RunOp
 
 __all__ = ['PlaceholderInput', 'FeedInput', 'DataParallelFeedInput',
-           'FeedfreeInput',
+           'FeedfreeInput', 'EnqueueThread',
            'QueueInput', 'BatchQueueInput',
            'ZMQInput', 'DummyConstantInput', 'TensorInput',
            'TFDatasetInput',
